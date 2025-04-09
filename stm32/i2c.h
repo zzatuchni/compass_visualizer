@@ -3,6 +3,8 @@
 
 #include "basic.h"
 #include "gpio.h"
+#include "uart.h"
+#include "debug.h"
 
 #define I2C1_REGS_START_ADDRESS 0x40005400
 #define I2C2_REGS_START_ADDRESS 0x40005800

@@ -1,6 +1,6 @@
 #include "lis2mdl.h"
 
-char mgnmtr_data_buf[6] = {0};
+char mgnmtr_data_buf[6] = {0x0};
 
 Result lis2mdl_calibrate() {
 
@@ -60,6 +60,7 @@ Result lis2mdl_init() {
 }
 
 Result lis2mdl_get_raw_data(Magnetometer_Raw_Data *mgnmtr_data) {
+
     Result wr_res;
     uint8_t cmd_buf;
 
@@ -104,6 +105,7 @@ Result lis2mdl_get_raw_data(Magnetometer_Raw_Data *mgnmtr_data) {
     //spin(100000);
     wr_res = i2c_read_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, mgnmtr_data_buf+5, 1);
     if (wr_res) return wr_res;
+    
 
     mgnmtr_data->x = (int16_t)((uint16_t)(mgnmtr_data_buf[0]) | (uint16_t)(mgnmtr_data_buf[1] << 8));
     mgnmtr_data->y = (int16_t)((uint16_t)(mgnmtr_data_buf[2]) | (uint16_t)(mgnmtr_data_buf[3] << 8));

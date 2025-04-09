@@ -25,22 +25,22 @@ class MyStaticMplCanvas(MyMplCanvas):
     def __init__(self, parent):
         super().__init__(parent)
 
-        self.num_points = 45;
+        self.num_points = 1000;
         self.points_t = []
         self.points_s = []
 
     def update_figure(self, i):
         self.axes.cla()
 
-        self.points_t.append(float(i[1]))
-        self.points_s.append(float(i[2]))
+        self.points_t = self.points_t + i[1]
+        self.points_s = self.points_s + i[2]
 
         if len(self.points_t) > self.num_points:
-            self.points_t = self.points_t[1:]
-            self.points_s = self.points_s[1:]
+            self.points_t = self.points_t[100:]
+            self.points_s = self.points_s[100:]
 
-        print(self.points_t)
-        print(self.points_s)
+        #print(self.points_t)
+        #print(self.points_s)
 
         self.axes.plot(self.points_t, self.points_s)
         self.draw()
@@ -72,6 +72,8 @@ class Worker(QThread):
     def run(self):
         print("Worker started")
 
+        self.batch_size = 100
+
         self.ser = serial.Serial(
             port='COM4',\
             baudrate=115200,\
@@ -82,8 +84,22 @@ class Worker(QThread):
 
         print("Connected to: " + self.ser.portstr)
 
-        point_num = 0
+        point_nums = []
+        times = []
+        angles = []
+
+        point_num = 1
         t0 = time.time()
+        t_prev = t0;
+
+        period_count = 0
+        avg_freq = 0
+
+        angle_count = 0
+        avg_angle = 0
+
+        batch_count = 0;
+
         while True:
             # get data here
             x = self.get_from_serial();
@@ -92,14 +108,35 @@ class Worker(QThread):
 
             angle = np.atan2(y, x) * (360 / (2 * np.pi))
 
-            self.progress_update.emit([point_num, t1-t0, angle])
+            point_nums.append(float(point_num))
+            times.append(float(t1-t0))
+            angles.append(float(angle))
+
+            batch_count = batch_count + 1;
+            if batch_count == self.batch_size:
+                self.progress_update.emit([point_nums, times, angles])
+                point_nums = []
+                times = []
+                angles = []
+                
+                avg_angle = angle_count / batch_count
+                angle_count = 0
+
+                batch_count = 0
+
+                print("avg freq:", avg_freq)
+                print("avg angle:", avg_angle)
 
             if self.isInterruptionRequested():
                 print("Interrupt received")
                 break
 
             point_num = point_num + 1
-            #time.sleep(0.5)
+            period_count = period_count + (t1 - t_prev)
+            t_prev = t1
+            avg_freq = 1 / (period_count / point_num)
+
+            angle_count = angle_count + angle
 
 class ApplicationWindow(QMainWindow):
     def __init__(self):
@@ -165,7 +202,7 @@ class ApplicationWindow(QMainWindow):
         pass
 
     def worker_progress_update(self, i):
-        print("Worker progress update", i[0])
+        print("Worker progress update")
         self.mpl_static_canvas.update_figure(i)
 
         pass
