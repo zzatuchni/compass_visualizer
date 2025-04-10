@@ -71,6 +71,11 @@ void _on_systick(void) {
     Result res = lis2mdl_get_raw_data(&mgmtr_data);
     if (res) { DPRINT("GET MGMT DATA "); DPRINTN(res); for (;;) { spin(50000); } };
 
+    //DPRINTNS(mgmtr_data.x);
+    //DPRINTNL();
+    //DPRINTNS(mgmtr_data.y);
+    //DPRINTNL();
+
     uart_write_buf(USART2, (char *)&(mgmtr_data.x), 2);
     uart_write_buf(USART2, (char *)&(mgmtr_data.y), 2);
 }

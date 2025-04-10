@@ -89,6 +89,8 @@ Result i2c_write_buf(I2C_Regs *i2c, I2C_Address addr, char *buf, size_t len) {
         //DPRINTNL();
         //DPRINTB(i2c->ISR);
         //DPRINTNL();
+        //DPRINTN(*buf);
+        //DPRINTNL();
 
         // if nackf received, return error
         if (wait_for_nack_clear(i2c)) {
@@ -112,8 +114,16 @@ Result i2c_write_buf(I2C_Regs *i2c, I2C_Address addr, char *buf, size_t len) {
 
     // check tc bit
     WAIT_FOR_CONDITION(i2c->ISR & (BIT(5)), GENERIC_TIMEOUT_NUM);
+    //i2c->ICR |= BIT(5);
     // stop bit
     //i2c->CR2 |= BIT(14);  
+
+    //DPRINTLN("DONE2");
+    //DPRINTB(i2c->CR2);
+    //DPRINTNL();
+    //DPRINTB(i2c->ISR);
+    //DPRINTNL();
+ 
     return RES_OK;
 }
 
@@ -167,6 +177,8 @@ Result i2c_read_buf(I2C_Regs *i2c, I2C_Address addr, char *buf, size_t len) {
 
         // read byte from rxdr
         buf[i] = i2c->RXDR;
+        //DPRINTN(buf[i]);
+        //DPRINTNL();
     }
 
     //DPRINTLN("DONE");
@@ -179,5 +191,12 @@ Result i2c_read_buf(I2C_Regs *i2c, I2C_Address addr, char *buf, size_t len) {
     WAIT_FOR_CONDITION(i2c->ISR & (BIT(5)), GENERIC_TIMEOUT_NUM);
     // stop bit
     //i2c->CR2 |= BIT(14);  
+
+    //DPRINTLN("DONE2");
+    //DPRINTB(i2c->CR2);
+    //DPRINTNL();
+    //DPRINTB(i2c->ISR);
+    //DPRINTNL();
+
     return RES_OK;
 }

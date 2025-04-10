@@ -8,12 +8,12 @@ Result lis2mdl_calibrate() {
     uint8_t cmd_buf[2];
 
     cmd_buf[0] = LIS2MDL_OFFSETZ_L_REG_ADDRESS;
-    cmd_buf[1] = (uint8_t)(LIS2MDL_OFFSETZ_VALUE & 0xFF);
+    cmd_buf[1] = (uint8_t)((uint16_t)LIS2MDL_OFFSETZ_VALUE & 0xFF);
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
     cmd_buf[0] = LIS2MDL_OFFSETZ_H_REG_ADDRESS;
-    cmd_buf[1] = (uint8_t)(LIS2MDL_OFFSETZ_VALUE >> 8);
+    cmd_buf[1] = (uint8_t)((uint16_t)LIS2MDL_OFFSETZ_VALUE >> 8);
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
@@ -23,37 +23,37 @@ Result lis2mdl_calibrate() {
     if (wr_res) return wr_res;
 
     cmd_buf[0] = LIS2MDL_OFFSETX_H_REG_ADDRESS;
-    cmd_buf[1] = (uint8_t)(LIS2MDL_OFFSETX_VALUE >> 8);
+    cmd_buf[1] = (uint8_t)((uint16_t)LIS2MDL_OFFSETX_VALUE >> 8);
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
     cmd_buf[0] = LIS2MDL_OFFSETY_L_REG_ADDRESS;
-    cmd_buf[1] = (uint8_t)(LIS2MDL_OFFSETY_VALUE & 0xFF);
+    cmd_buf[1] = (uint8_t)((uint16_t)LIS2MDL_OFFSETY_VALUE & 0xFF);
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
     cmd_buf[0] = LIS2MDL_OFFSETY_H_REG_ADDRESS;
-    cmd_buf[1] = (uint8_t)(LIS2MDL_OFFSETY_VALUE >> 8);
+    cmd_buf[1] = (uint8_t)((uint16_t)LIS2MDL_OFFSETY_VALUE >> 8);
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
+    return RES_OK;
 }
 
 Result lis2mdl_init() {
     uint8_t cmd_buf[2] = {LIS2MDL_CFG_REG_A_ADDRESS, LIS2MDL_CFG_REG_A_STARTUP_VALUE};
 
     // Perform startup sequence
-    Result wr_res = lis2mdl_calibrate();
-    if (wr_res) return wr_res;
-
-
-    wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
+    Result wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
     cmd_buf[0] = LIS2MDL_CFG_REG_C_ADDRESS;
     cmd_buf[1] = LIS2MDL_CFG_REG_C_STARTUP_VALUE;
 
     wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
+    if (wr_res) return wr_res;
+
+    wr_res = lis2mdl_calibrate();
     if (wr_res) return wr_res;
 
     return RES_OK;

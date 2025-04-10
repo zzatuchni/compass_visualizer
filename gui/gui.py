@@ -1,12 +1,31 @@
 import sys
 import serial
 import time
-import random
+import traceback
 import numpy as np
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
-from PyQt6.QtWidgets import QApplication, QSizePolicy, QWidget, QMainWindow, QVBoxLayout, QComboBox, QPushButton
-from PyQt6.QtCore import QRunnable, QThreadPool, QThread, pyqtSignal
+from PyQt6.QtWidgets import QApplication, QSizePolicy, QWidget, QMainWindow, QVBoxLayout, QComboBox, QPushButton, QDialogButtonBox, QLabel, QDialog
+from PyQt6.QtCore import QThread, pyqtSignal
+
+class CustomDialog(QDialog):
+    def __init__(self, title, message, parent=None):
+        super().__init__(parent)
+
+        self.setWindowTitle(title)
+
+        QBtn = (
+            QDialogButtonBox.StandardButton.Ok
+        )
+
+        self.buttonBox = QDialogButtonBox(QBtn)
+        self.buttonBox.accepted.connect(self.accept)
+
+        layout = QVBoxLayout()
+        message = QLabel(message)
+        layout.addWidget(message)
+        layout.addWidget(self.buttonBox)
+        self.setLayout(layout)
 
 class MyMplCanvas(FigureCanvas):
     def __init__(self, parent=None, width=10, height=7, dpi=200):
@@ -32,8 +51,8 @@ class MyStaticMplCanvas(MyMplCanvas):
     def update_figure(self, i):
         self.axes.cla()
 
-        self.points_t = self.points_t + i[1]
-        self.points_s = self.points_s + i[2]
+        self.points_t = self.points_t + i[0]
+        self.points_s = self.points_s + i[1]
 
         if len(self.points_t) > self.num_points:
             self.points_t = self.points_t[100:]
@@ -54,9 +73,11 @@ class MyStaticMplCanvas(MyMplCanvas):
 
 class Worker(QThread):
     progress_update = pyqtSignal(object)
+    worker_error = pyqtSignal(object)
 
-    def __init__(self):
+    def __init__(self, port_name):
         super().__init__()
+        self.port_name = port_name
 
     def get_from_serial(self):
         i = 0
@@ -68,23 +89,43 @@ class Worker(QThread):
                 i = i + 1
 
         return int.from_bytes(num, signed=True)
+    
+    def connect_to_serial(self, port_name):
+        return serial.Serial(
+            port=port_name,\
+            baudrate=115200,\
+            parity=serial.PARITY_NONE,\
+            stopbits=serial.STOPBITS_ONE,\
+            bytesize=serial.EIGHTBITS,\
+            timeout=0)
 
     def run(self):
         print("Worker started")
 
         self.batch_size = 100
 
-        self.ser = serial.Serial(
-            port='COM4',\
-            baudrate=115200,\
-            parity=serial.PARITY_NONE,\
-            stopbits=serial.STOPBITS_ONE,\
-            bytesize=serial.EIGHTBITS,\
-                timeout=0)
+        if (self.port_name == "Auto"):
+            ok = False
+            for i in range(0, 256):
+                try:
+                    self.ser = self.connect_to_serial("COM"+str(i))
+                    ok = True
+                except:
+                    pass
+            if not ok:
+                self.worker_error.emit(["Error", "Could not find serial port to connect to"])
+                return
+        else:
+            try:
+                self.ser = self.connect_to_serial(self.port_name)
+            except:
+                print(traceback.format_exc())
+                self.worker_error.emit(["Error", "Could not connect to "+self.port_name])
+                return
+
 
         print("Connected to: " + self.ser.portstr)
 
-        point_nums = []
         times = []
         angles = []
 
@@ -108,14 +149,12 @@ class Worker(QThread):
 
             angle = np.atan2(y, x) * (360 / (2 * np.pi))
 
-            point_nums.append(float(point_num))
             times.append(float(t1-t0))
             angles.append(float(angle))
 
             batch_count = batch_count + 1;
             if batch_count == self.batch_size:
-                self.progress_update.emit([point_nums, times, angles])
-                point_nums = []
+                self.progress_update.emit([times, angles])
                 times = []
                 angles = []
                 
@@ -138,6 +177,8 @@ class Worker(QThread):
 
             angle_count = angle_count + angle
 
+        self.ser.close()
+
 class ApplicationWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -145,9 +186,6 @@ class ApplicationWindow(QMainWindow):
 
         self.main_widget = QWidget()
         layout = QVBoxLayout(self.main_widget)
-
-        self.worker = Worker()
-        self.worker.progress_update.connect(self.worker_progress_update)
 
         self.mpl_static_canvas = MyStaticMplCanvas(self.main_widget)
 
@@ -181,6 +219,10 @@ class ApplicationWindow(QMainWindow):
 
     def start_button_clicked(self):
         print("Start button clicked")
+        self.worker = Worker(self.com_port_selector.currentText())
+        self.worker.progress_update.connect(self.worker_progress_update)
+        self.worker.worker_error.connect(self.worker_error)
+
         self.mpl_static_canvas.clear_figure()
         self.start_button.setEnabled(False)
         self.clear_button.setEnabled(False)
@@ -204,6 +246,16 @@ class ApplicationWindow(QMainWindow):
     def worker_progress_update(self, i):
         print("Worker progress update")
         self.mpl_static_canvas.update_figure(i)
+        pass
+
+    def worker_error(self, i):
+        print("Error message")
+        dlg = CustomDialog(i[0], i[1])
+        dlg.exec()
+
+        self.stop_button.setEnabled(False)
+        self.start_button.setEnabled(True)
+        self.clear_button.setEnabled(True)
 
         pass
 
