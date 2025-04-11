@@ -47,6 +47,12 @@ Result lis2mdl_init() {
     Result wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
     if (wr_res) return wr_res;
 
+    cmd_buf[0] = LIS2MDL_CFG_REG_B_ADDRESS;
+    cmd_buf[1] = LIS2MDL_CFG_REG_B_STARTUP_VALUE;
+
+    wr_res = i2c_write_buf(common_i2c_config.i2c, LIS2MDL_I2C_ADDRESS, (char *)&cmd_buf, 2);
+    if (wr_res) return wr_res;
+
     cmd_buf[0] = LIS2MDL_CFG_REG_C_ADDRESS;
     cmd_buf[1] = LIS2MDL_CFG_REG_C_STARTUP_VALUE;
 
@@ -114,5 +120,3 @@ Result lis2mdl_get_raw_data(Magnetometer_Raw_Data *mgnmtr_data) {
     return RES_OK;
 }
 
-const int16_t piecewise_a[17] = {10, 9, 8, 7, 6,  5,  4,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2};
-const int16_t piecewise_b[17] = {0,  2, 4, 7, 12, 17, 23, 31, 40, 40, 41, 41, 41, 40, 40, 39, 39};
