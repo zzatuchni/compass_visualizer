@@ -112,7 +112,7 @@ class Compass(MyMplCanvas):
     def update_figure(self, angle):
         self.style_compass()
 
-        angle = np.radians(-1 * angle)
+        angle = np.radians(-1*angle)
 
         R = np.array([[np.cos(angle), -np.sin(angle)],
                   [np.sin(angle), np.cos(angle)]])
@@ -157,7 +157,7 @@ class Worker(QThread):
             timeout=0)
     
     def get_angle(self, x, y):            
-        angle = np.atan2(y, x) * (360 / (2 * np.pi))
+        angle = np.atan2(-1*y, x) * (360 / (2 * np.pi))
         if angle < 0:
             angle = angle + 360
         return angle
