@@ -138,4 +138,30 @@ typedef struct {
 
 #define PWR ((PWR_Regs *)(PWR_REGS_START_ADDRESS))
 
+////////////////////////////////////////////////////////////
+//  DMA
+////////////////////////////////////////////////////////////
+
+#define DMA1_REGS_START_ADDRESS 0x40020000
+#define DMA2_REGS_START_ADDRESS 0x40020400
+
+#define DMA1_AHB1ENR_BIT 0
+#define DMA2_AHB1ENR_BIT 1
+typedef struct {
+    volatile uint32_t ISR, IFCR, 
+        CCR1, CNDTR1, CPAR1, CMAR1, RESERVED1,
+        CCR2, CNDTR2, CPAR2, CMAR2, RESERVED2,
+        CCR3, CNDTR3, CPAR3, CMAR3, RESERVED3,
+        CCR4, CNDTR4, CPAR4, CMAR4, RESERVED4,
+        CCR5, CNDTR5, CPAR5, CMAR5, RESERVED5,
+        CCR6, CNDTR6, CPAR6, CMAR6, RESERVED6,
+        CCR7, CNDTR7, CPAR7, CMAR7, 
+        RESERVED7[6],
+        CSELR;
+
+} DMA_Regs;
+
+#define DMA1 ((DMA_Regs *)(DMA1_REGS_START_ADDRESS))
+#define DMA2 ((DMA_Regs *)(DMA2_REGS_START_ADDRESS))
+
 #endif

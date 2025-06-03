@@ -2,13 +2,21 @@
 
 char temp_number_buffer[32];
 
-const UART_Config uart_config = {
+const UART_Config debug_uart_config = {
     USART2,
     {'A', 2},
-    {'A', 3}
+    {'A', 3},
+    USART1_BAUD_RATE
 };
 
-Result uart_init(const UART_Config *config) {
+const UART_Config wifi_uart_config = {
+    USART3,
+    {'C', 4},
+    {'C', 5},
+    USART3_BAUD_RATE
+};
+
+Result uart_init(const UART_Config *config, bool interrupt_en) {
 
     // enable peripheral in RCC and get af_num and interrupt_num
 
@@ -56,12 +64,12 @@ Result uart_init(const UART_Config *config) {
     // configure the uart regs
 
     config->uart->CR1 = 0;                                      // Disable this UART
-    config->uart->BRR = DEFAULT_SYSCLK_FREQ / UART_BAUD_RATE;   // DEFAULT_SYSCLK_FREQ is the UART bus frequency
-    config->uart->CR1 |= BIT(0) | BIT(2) | BIT(3) | BIT(5);     // Set UE, RE, TE, RXNEIE (uart enable, rx enable, tx enable, rx interrupt enable)
-
-    // enable interrupt on receiving byte
-
-    enable_interrupt(interrupt_num);
+    config->uart->BRR = DEFAULT_SYSCLK_FREQ / config->baud;   // DEFAULT_SYSCLK_FREQ is the UART bus frequency
+    config->uart->CR1 |= BIT(0) | BIT(2) | BIT(3);     // Set UE, RE, TE, RXNEIE (uart enable, rx enable, tx enable, rx interrupt enable)
+    if (interrupt_en) {
+        config->uart->CR1 |= BIT(5);
+        enable_interrupt(interrupt_num);
+    }
 
     return RES_OK;
 }
@@ -82,7 +90,7 @@ Result lpuart_init(const LPUART_Config *config) {
     LPUART_Regs *uart = LPUART1;
 
     uart->CR1 = 0;                                      // Disable this UART
-    uart->BRR = DEFAULT_SYSCLK_FREQ / UART_BAUD_RATE;   // FREQ is a UART bus frequency
+    uart->BRR = DEFAULT_SYSCLK_FREQ / config->baud;   // FREQ is a UART bus frequency
     uart->CR1 |= BIT(0) | BIT(2) | BIT(3) | BIT(5);     // Set UE, RE, TE, RXNEIE
 
     enable_interrupt(interrupt_num);
@@ -101,6 +109,30 @@ int uart_read_ready(UART_Regs *uart) {
 void uart_write_byte(UART_Regs *uart, uint8_t byte) {
     uart->TDR = byte;
     while ((uart->ISR & BIT(6)) == 0) spin(1); // TC - transmission complete
+}
+
+Result uart_read_until(UART_Regs *uart, char *buf, char *look_for, size_t len, size_t max_wait) {
+    
+    /**/
+    char *search_end = buf;
+    char *search_start = buf;
+    for (size_t i = 0; i < len; i++) {
+        WAIT_FOR_CONDITION(uart_read_ready(uart), GENERIC_TIMEOUT_NUM);
+        char byte = (char)uart_read_byte(uart);
+        uart_write_byte(USART2, byte);
+        uart_write_byte(USART2, 'X');
+        *search_end = byte;
+        search_end++;
+    }
+    while (true) {
+        if (str_cmp(search_start, look_for, len)) return RES_OK;
+        while (!uart_read_ready(uart)) {};
+        *search_end = (char)uart_read_byte(uart);
+        search_end++;
+        search_start++;
+        if (search_end - buf >= max_wait) return RES_FAILURE;
+    }
+    return RES_OK;
 }
 
 void uart_write_buf(UART_Regs *uart, char *buf, size_t len) {

@@ -9,6 +9,8 @@
 #include "i2c.h"
 #include "debug.h"
 #include "lis2mdl.h"
+//#include "icm20948.h"
+#include "esp8266.h"
 
 #define DATA_TRANSMISSION_FEQ_HZ 100
 
@@ -17,7 +19,16 @@
 //////////////////////////////////////
 
 void _on_uart2_interrupt(void) {
-    uint8_t discard_byte = uart_read_byte(USART2);
+    if (uart_read_ready(debug_uart_config.uart)) {
+        uint8_t byte = uart_read_byte(debug_uart_config.uart);
+    }
+}
+
+void _on_uart3_interrupt(void) {
+    DPRINT("INT");
+    if (uart_read_ready(wifi_uart_config.uart)) {
+        uint8_t byte = uart_read_byte(wifi_uart_config.uart);
+    }
 }
 
 void _on_hard_fault(void) {
@@ -66,18 +77,24 @@ void _on_usage_fault(void) {
     for (;;) {}
 }
 
+
 volatile Magnetometer_Raw_Data mgmtr_data = {0xffff, 0xffff};
 void _on_systick(void) {
     Result res = lis2mdl_get_raw_data(&mgmtr_data);
     if (res) { DPRINT("GET MGMT DATA "); DPRINTN(res); for (;;) { spin(50000); } };
 
-    //DPRINTNS(mgmtr_data.x);
-    //DPRINTNL();
-    //DPRINTNS(mgmtr_data.y);
-    //DPRINTNL();
+    uart_write_buf(debug_uart_config.uart, (char *)&(mgmtr_data.x), 2);
+    uart_write_buf(debug_uart_config.uart, (char *)&(mgmtr_data.y), 2);
 
-    uart_write_buf(USART2, (char *)&(mgmtr_data.x), 2);
-    uart_write_buf(USART2, (char *)&(mgmtr_data.y), 2);
+    //esp8266_send_cmd(AT_SEND_DATA_CMD);
+    //uart_write_buf(wifi_uart_config.uart, (char *)&(mgmtr_data.x), 2);
+    //uart_write_buf(wifi_uart_config.uart, (char *)&(mgmtr_data.y), 2);
+}
+
+void _on_dma1_ch3_interrupt(void) {
+    DPRINT("YAY!");
+
+
 }
 
 //////////////////////////////////////
@@ -86,17 +103,23 @@ void _on_systick(void) {
 
 int main(void) {
 
-    Result res = uart_init(&uart_config);
+    Result res = uart_init(&debug_uart_config, true);
     if (res) { for (;;) {} };
     DCLRSCRN();
+    DPRINT("HELLO!");
+    DPRINTNL();
 
     res = i2c_init(&common_i2c_config);
     if (res) { DPRINT("I2C INIT ERR "); DPRINTN(res); for (;;) {} };
 
-    res = lis2mdl_init(&common_i2c_config);
-    if (res) { DPRINT("LIS2 INIT ERR "); DPRINTN(res); for (;;) {} };
+    //res = lis2mdl_init(&common_i2c_config);
+    //if (res) { DPRINT("LIS2 INIT ERR "); DPRINTN(res); for (;;) {} };
 
-    systick_init(DEFAULT_SYSCLK_FREQ / DATA_TRANSMISSION_FEQ_HZ);
+    res = esp8266_init();
+    if (res) { DPRINT("ESP INIT ERR "); DPRINTN(res); DPRINTNL();
+        DPRINTB(USART3->ISR); for (;;) {} };
+
+    //systick_init(DEFAULT_SYSCLK_FREQ / DATA_TRANSMISSION_FEQ_HZ);
     for (;;) {}
 
 }
@@ -120,9 +143,9 @@ __attribute__((naked, noreturn)) void _reset(void) {
 // 16 standard and 91 STM32-specific handlers
 __attribute__((section(".vectors"))) void (*const volatile tab[16 + 99])(void) = {
     _estack, _reset, 0, _on_hard_fault, _on_mem_fault, _on_bus_fault, _on_usage_fault, 0, 0, 0, 0, 0, 0, 0, 0, _on_systick,  //ARM core interrupts
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 0 - 15
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, _on_dma1_ch3_interrupt, 0, 0, // 0 - 15
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 16 - 31
-    0, 0, 0, 0, 0, 0, _on_uart2_interrupt, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 32 - 47
+    0, 0, 0, 0, 0, 0, _on_uart2_interrupt, _on_uart3_interrupt, 0, 0, 0, 0, 0, 0, 0, 0, // 32 - 47
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 48 - 63
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 64 - 79
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 80 - 96

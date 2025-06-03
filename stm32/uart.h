@@ -6,7 +6,8 @@
 
 extern char temp_number_buffer[32];
 
-#define UART_BAUD_RATE 115200
+#define USART1_BAUD_RATE 115200
+#define USART3_BAUD_RATE 115200
 
 #define USART1_REGS_START_ADDRESS 0x40013800
 #define USART1_APB2ENR_BIT 14
@@ -55,20 +56,25 @@ typedef struct {
     UART_Regs *uart;
     STM32_Pin tx_pin;
     STM32_Pin rx_pin;
+    uint32_t baud;
 } UART_Config;
 
 typedef struct {
     STM32_Pin tx_pin;
     STM32_Pin rx_pin;
+    uint32_t baud;
 } LPUART_Config;
 
-extern const UART_Config uart_config;
+extern const UART_Config debug_uart_config;
+extern const UART_Config wifi_uart_config;
 
-Result uart_init(const UART_Config *config);
+Result uart_init(const UART_Config *config, bool interrupt_en);
 
 Result lpuart_init(const LPUART_Config *config);
 
 uint8_t uart_read_byte(UART_Regs *uart);
+
+Result uart_read_until(UART_Regs *uart, char *buf, char *look_for, size_t len, size_t max_wait);
 
 int uart_read_ready(UART_Regs *uart);
 
