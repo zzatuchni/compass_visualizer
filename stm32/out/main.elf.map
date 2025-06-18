@@ -1,633 +1,652 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                              C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o (memcpy)
+                              C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o (memcpy)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                              C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o (memset)
+                              C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o (memset)
 
 Discarded input sections
 
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .text.disable_interrupt
-                0x00000000       0x20 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x00000000       0x20 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .text.exti_get_interrupt_num
-                0x00000000       0x14 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x00000000       0x14 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .text.exti_enable_on_pin
-                0x00000000       0x80 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x00000000       0x80 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .text.exti_enable
-                0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .text.systick_init
-                0x00000000       0x2c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .text.gpio_write
-                0x00000000       0x2c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .text.gpio_read
-                0x00000000       0x28 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .text.wait_for_nack_clear
-                0x00000000        0x6 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_info    0x00000000       0x76 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_abbrev  0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
+                0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .text.esp8266_dma_init
+                0x00000000       0x6c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .text.esp8266_init
+                0x00000000      0x1c0 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .rodata        0x00000000       0x4e C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .data.esp_command_buf
+                0x00000000       0x80 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_info    0x00000000      0xc8d C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_abbrev  0x00000000      0x14a C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_loc     0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
  .debug_aranges
-                0x00000000       0x18 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x1ba C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_line    0x00000000      0x370 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .debug_str     0x00000000     0x8fb7 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .comment       0x00000000       0x4a C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
+                0x00000000       0x28 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_ranges  0x00000000       0x18 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x1b1 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_macro   0x00000000       0x5e C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_line    0x00000000      0x494 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_str     0x00000000     0x906e C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .comment       0x00000000       0x4a C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .debug_frame   0x00000000       0x40 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
  .ARM.attributes
-                0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .text.lis2mdl_calibrate
-                0x00000000       0xa8 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .text.lis2mdl_init
-                0x00000000       0x5c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
+                0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .text.gpio_write
+                0x00000000       0x2c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .text.gpio_read
+                0x00000000       0x28 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .text.wait_for_nack_clear
+                0x00000000        0x6 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_info    0x00000000       0x76 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_abbrev  0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_aranges
+                0x00000000       0x18 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x1ba C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_line    0x00000000      0x370 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .debug_str     0x00000000     0x8fb7 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .comment       0x00000000       0x4a C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .ARM.attributes
+                0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0xb2 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00000000       0x46 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
  .text.lpuart_init
-                0x00000000       0x5c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
+                0x00000000       0x5c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
  .text.uart_read_until
-                0x00000000       0x7c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
+                0x00000000       0x7c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
  .text.uart_write_number_signed
-                0x00000000       0x80 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+                0x00000000       0x80 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0xeb C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00000000       0xac C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .group         0x00000000        0xc C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .text          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .data          0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .bss           0x00000000        0x0 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
  .text.int_to_str
-                0x00000000       0x26 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .text.str_cmp  0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+                0x00000000       0x26 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .text.str_cmp  0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
  .text.str_copy
-                0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+                0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x4c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x1e C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x94 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x3c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x103 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x3a C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x57 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x6a C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x1df C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x82 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x460 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x22 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x104 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x35 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x43 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x10 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x58 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x71 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x12a C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000      0x341 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x16 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x29 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_macro   0x00000000       0x1c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
@@ -644,15 +663,15 @@ sram             0x20000000         0x00010000         xrw
 
 Linker script and memory map
 
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccUdRypO.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-LOAD C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccUqC7bB.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccHaZSuP.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+LOAD C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
@@ -661,346 +680,327 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
 .vectors        0x08000000      0x1cc
                 0x08000000                . = ALIGN (0x4)
  *(.vectors)
- .vectors       0x08000000      0x1cc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
+ .vectors       0x08000000      0x1cc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
                 0x08000000                tab
                 0x080001cc                . = ALIGN (0x4)
 
-.text           0x080001cc      0xb18
+.text           0x080001cc      0x9f0
  *(.text*)
  .text.enable_interrupt
-                0x080001cc       0x20 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x080001cc       0x20 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
                 0x080001cc                enable_interrupt
- .text.esp8266_dma_init
-                0x080001ec       0x6c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
-                0x080001ec                esp8266_dma_init
- .text.esp8266_init
-                0x08000258      0x1c0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
-                0x08000258                esp8266_init
+ .text.systick_init
+                0x080001ec       0x2c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+                0x080001ec                systick_init
  .text.gpio_set_mode
-                0x08000418       0x4c C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-                0x08000418                gpio_set_mode
+                0x08000218       0x4c C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+                0x08000218                gpio_set_mode
  .text.gpio_set_af
-                0x08000464       0x38 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-                0x08000464                gpio_set_af
+                0x08000264       0x38 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+                0x08000264                gpio_set_af
  .text.gpio_set_speed
-                0x0800049c       0x34 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-                0x0800049c                gpio_set_speed
+                0x0800029c       0x34 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+                0x0800029c                gpio_set_speed
  .text.gpio_set_otyper
-                0x080004d0       0x30 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-                0x080004d0                gpio_set_otyper
+                0x080002d0       0x30 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+                0x080002d0                gpio_set_otyper
  .text.gpio_set_pupdr
-                0x08000500       0x34 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
-                0x08000500                gpio_set_pupdr
+                0x08000300       0x34 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+                0x08000300                gpio_set_pupdr
  .text.i2c_init
-                0x08000534       0xb8 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
-                0x08000534                i2c_init
+                0x08000334       0xb8 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+                0x08000334                i2c_init
  .text.i2c_write_buf
-                0x080005ec       0x64 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
-                0x080005ec                i2c_write_buf
+                0x080003ec       0x64 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+                0x080003ec                i2c_write_buf
  .text.i2c_read_buf
-                0x08000650       0x64 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
-                0x08000650                i2c_read_buf
+                0x08000450       0x64 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+                0x08000450                i2c_read_buf
+ .text.lis2mdl_calibrate
+                0x080004b4       0xa8 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+                0x080004b4                lis2mdl_calibrate
+ .text.lis2mdl_init
+                0x0800055c       0x5c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+                0x0800055c                lis2mdl_init
  .text.lis2mdl_get_raw_data
-                0x080006b4      0x104 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
-                0x080006b4                lis2mdl_get_raw_data
+                0x080005b8      0x104 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+                0x080005b8                lis2mdl_get_raw_data
  .text._on_uart2_interrupt
-                0x080007b8       0x20 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x080007b8                _on_uart2_interrupt
+                0x080006bc       0x20 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x080006bc                _on_uart2_interrupt
  .text._on_uart3_interrupt
-                0x080007d8       0x30 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x080007d8                _on_uart3_interrupt
+                0x080006dc       0x30 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x080006dc                _on_uart3_interrupt
  .text._on_dma1_ch3_interrupt
-                0x08000808       0x14 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x08000808                _on_dma1_ch3_interrupt
+                0x0800070c       0x14 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x0800070c                _on_dma1_ch3_interrupt
  .text._on_hard_fault
-                0x0800081c       0xdc C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x0800081c                _on_hard_fault
+                0x08000720       0xdc C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x08000720                _on_hard_fault
  .text._on_mem_fault
-                0x080008f8       0x40 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x080008f8                _on_mem_fault
+                0x080007fc       0x40 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x080007fc                _on_mem_fault
  .text._on_bus_fault
-                0x08000938       0x40 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x08000938                _on_bus_fault
+                0x0800083c       0x40 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x0800083c                _on_bus_fault
  .text._on_usage_fault
-                0x08000978       0x40 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x08000978                _on_usage_fault
+                0x0800087c       0x40 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x0800087c                _on_usage_fault
  .text._on_systick
-                0x080009b8       0x5c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x080009b8                _on_systick
+                0x080008bc       0x6c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x080008bc                _on_systick
  .text.startup.main
-                0x08000a14       0xa8 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x08000a14                main
- .text._reset   0x08000abc       0x4c C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x08000abc                _reset
+                0x08000928       0x6c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x08000928                main
+ .text._reset   0x08000994       0x4c C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x08000994                _reset
  .text.uart_init
-                0x08000b08       0xdc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000b08                uart_init
+                0x080009e0       0xdc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x080009e0                uart_init
  .text.uart_read_byte
-                0x08000be4        0x6 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000be4                uart_read_byte
+                0x08000abc        0x6 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000abc                uart_read_byte
  .text.uart_read_ready
-                0x08000bea        0x8 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000bea                uart_read_ready
+                0x08000ac2        0x8 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000ac2                uart_read_ready
  .text.uart_write_byte
-                0x08000bf2       0x16 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000bf2                uart_write_byte
+                0x08000aca       0x16 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000aca                uart_write_byte
  .text.uart_write_buf
-                0x08000c08       0x1a C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000c08                uart_write_buf
- *fill*         0x08000c22        0x2 
+                0x08000ae0       0x1a C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000ae0                uart_write_buf
+ *fill*         0x08000afa        0x2 
  .text.uart_write_number
-                0x08000c24       0x70 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000c24                uart_write_number
- .text.spin     0x08000c94       0x24 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
-                0x08000c94                spin
- .text.memcpy   0x08000cb8       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                0x08000cb8                memcpy
- .text.memset   0x08000cd4       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                0x08000cd4                memset
+                0x08000afc       0x70 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000afc                uart_write_number
+ .text.spin     0x08000b6c       0x24 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+                0x08000b6c                spin
+ .text.memcpy   0x08000b90       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08000b90                memcpy
+ .text.memset   0x08000bac       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x08000bac                memset
 
-.glue_7         0x08000ce4        0x0
- .glue_7        0x08000ce4        0x0 linker stubs
+.glue_7         0x08000bbc        0x0
+ .glue_7        0x08000bbc        0x0 linker stubs
 
-.glue_7t        0x08000ce4        0x0
- .glue_7t       0x08000ce4        0x0 linker stubs
+.glue_7t        0x08000bbc        0x0
+ .glue_7t       0x08000bbc        0x0 linker stubs
 
-.vfp11_veneer   0x08000ce4        0x0
- .vfp11_veneer  0x08000ce4        0x0 linker stubs
+.vfp11_veneer   0x08000bbc        0x0
+ .vfp11_veneer  0x08000bbc        0x0 linker stubs
 
-.v4_bx          0x08000ce4        0x0
- .v4_bx         0x08000ce4        0x0 linker stubs
+.v4_bx          0x08000bbc        0x0
+ .v4_bx         0x08000bbc        0x0 linker stubs
 
-.iplt           0x08000ce4        0x0
- .iplt          0x08000ce4        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
+.iplt           0x08000bbc        0x0
+ .iplt          0x08000bbc        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
 
-.rodata         0x08000ce4       0xd4
+.rodata         0x08000bbc       0x7c
  *(.rodata*)
- .rodata        0x08000ce4       0x4e C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- *fill*         0x08000d32        0x2 
  .rodata.common_i2c_config
-                0x08000d34        0x8 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
-                0x08000d34                common_i2c_config
- .rodata        0x08000d3c       0x5d C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .rodata        0x08000d99        0x6 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- *fill*         0x08000d9f        0x1 
+                0x08000bbc        0x8 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+                0x08000bbc                common_i2c_config
+ .rodata        0x08000bc4       0x54 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .rodata        0x08000c18        0x6 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ *fill*         0x08000c1e        0x2 
  .rodata.debug_uart_config
-                0x08000da0        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000da0                debug_uart_config
+                0x08000c20        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000c20                debug_uart_config
  .rodata.wifi_uart_config
-                0x08000dac        0xc C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x08000dac                wifi_uart_config
+                0x08000c2c        0xc C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x08000c2c                wifi_uart_config
 
-.rel.dyn        0x08000db8        0x0
- .rel.iplt      0x08000db8        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
+.rel.dyn        0x08000c38        0x0
+ .rel.iplt      0x08000c38        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
 
-.data           0x20000000       0x86 load address 0x08000db8
+.data           0x20000000        0x6 load address 0x08000c38
                 0x20000000                _sdata = .
  *(.first_data)
  *(.data SORT_BY_NAME(.data.*))
- .data.esp_command_buf
-                0x20000000       0x80 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
-                0x20000000                esp_command_buf
  .data.mgmtr_data
-                0x20000080        0x6 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                0x20000080                mgmtr_data
-                0x20000086                _edata = .
-                0x08000db8                _sidata = LOADADDR (.data)
+                0x20000000        0x6 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                0x20000000                mgmtr_data
+                0x20000006                _edata = .
+                0x08000c38                _sidata = LOADADDR (.data)
 
-.igot.plt       0x20000088        0x0 load address 0x08000e3e
- .igot.plt      0x20000088        0x0 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
+.igot.plt       0x20000008        0x0 load address 0x08000c3e
+ .igot.plt      0x20000008        0x0 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
 
-.bss            0x20000086       0x26 load address 0x08000e3e
-                0x20000086                _sbss = .
+.bss            0x20000006       0x26 load address 0x08000c3e
+                0x20000006                _sbss = .
  *(.bss SORT_BY_NAME(.bss.*) COMMON)
  .bss.mgnmtr_data_buf
-                0x20000086        0x6 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
-                0x20000086                mgnmtr_data_buf
+                0x20000006        0x6 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+                0x20000006                mgnmtr_data_buf
  .bss.temp_number_buffer
-                0x2000008c       0x20 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
-                0x2000008c                temp_number_buffer
-                0x200000ac                _ebss = .
-                0x200000b0                . = ALIGN (0x8)
-                0x200000b0                _end = .
+                0x2000000c       0x20 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+                0x2000000c                temp_number_buffer
+                0x2000002c                _ebss = .
+                0x20000030                . = ALIGN (0x8)
+                0x20000030                _end = .
 OUTPUT(out/main.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000     0x447a
- .debug_info    0x00000000      0x69c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_info    0x0000069c      0xc8d C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_info    0x00001329      0x6ef C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_info    0x00001a18      0x87c C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_info    0x00002294      0x6a1 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_info    0x00002935      0xc91 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_info    0x000035c6      0xc7b C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_info    0x00004241      0x239 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_info     0x00000000     0x379e
+ .debug_info    0x00000000      0x69c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_info    0x0000069c      0x6ef C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_info    0x00000d8b      0x87c C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_info    0x00001607      0x6a1 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_info    0x00001ca8      0xc42 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_info    0x000028ea      0xc7b C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_info    0x00003565      0x239 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_abbrev   0x00000000      0xdc2
- .debug_abbrev  0x00000000      0x1a3 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_abbrev  0x000001a3      0x14a C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_abbrev  0x000002ed      0x171 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_abbrev  0x0000045e      0x221 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_abbrev  0x0000067f      0x18d C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_abbrev  0x0000080c      0x257 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_abbrev  0x00000a63      0x258 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_abbrev  0x00000cbb      0x107 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_abbrev   0x00000000      0xc78
+ .debug_abbrev  0x00000000      0x1a3 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_abbrev  0x000001a3      0x171 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_abbrev  0x00000314      0x221 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_abbrev  0x00000535      0x18d C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_abbrev  0x000006c2      0x257 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_abbrev  0x00000919      0x258 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_abbrev  0x00000b71      0x107 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_loc      0x00000000     0x14bb
- .debug_loc     0x00000000      0x1c8 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_loc     0x000001c8       0x22 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_loc     0x000001ea      0x2fe C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_loc     0x000004e8      0x463 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_loc     0x0000094b      0x176 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_loc     0x00000ac1       0x6b C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_loc     0x00000b2c      0x7fb C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_loc     0x00001327      0x194 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_loc      0x00000000     0x1499
+ .debug_loc     0x00000000      0x1c8 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_loc     0x000001c8      0x2fe C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_loc     0x000004c6      0x463 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_loc     0x00000929      0x176 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_loc     0x00000a9f       0x6b C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_loc     0x00000b0a      0x7fb C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_loc     0x00001305      0x194 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_aranges  0x00000000      0x228
+.debug_aranges  0x00000000      0x200
  .debug_aranges
-                0x00000000       0x48 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x00000000       0x48 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .debug_aranges
-                0x00000048       0x28 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
+                0x00000048       0x50 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
  .debug_aranges
-                0x00000070       0x50 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
+                0x00000098       0x38 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
  .debug_aranges
-                0x000000c0       0x38 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
+                0x000000d0       0x30 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
  .debug_aranges
-                0x000000f8       0x30 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
+                0x00000100       0x68 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
  .debug_aranges
-                0x00000128       0x68 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
+                0x00000168       0x60 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
  .debug_aranges
-                0x00000190       0x60 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_aranges
-                0x000001f0       0x38 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+                0x000001c8       0x38 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_ranges   0x00000000      0x330
- .debug_ranges  0x00000000       0x38 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_ranges  0x00000038       0x18 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_ranges  0x00000050       0x40 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_ranges  0x00000090       0xa8 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_ranges  0x00000138       0x20 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_ranges  0x00000158       0xa0 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_ranges  0x000001f8       0xb0 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_ranges  0x000002a8       0x88 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_ranges   0x00000000      0x318
+ .debug_ranges  0x00000000       0x38 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_ranges  0x00000038       0x40 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_ranges  0x00000078       0xa8 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_ranges  0x00000120       0x20 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_ranges  0x00000140       0xa0 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_ranges  0x000001e0       0xb0 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_ranges  0x00000290       0x88 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_macro    0x00000000     0x2d54
- .debug_macro   0x00000000      0x17b C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x0000017b      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000be7       0x22 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000c09       0x4c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000c55       0x1e C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000c73       0x94 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000d07       0x3c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000d43      0x103 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000e46       0x3a C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000e80       0x57 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000ed7       0x6a C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00000f41      0x1df C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001120       0x82 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x000011a2      0x460 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001602       0x22 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001624      0x104 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001728       0x16 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x0000173e       0x35 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001773       0x16 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001789       0x43 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x000017cc       0x34 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001800       0x10 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001810       0x58 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001868       0x71 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x000018d9       0x1c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x000018f5      0x12a C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001a1f      0x341 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001d60       0x16 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001d76       0x29 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001d9f       0x1c C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001dbb       0xeb C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_macro   0x00001ea6      0x1b1 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00002057       0x1c C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00002073       0xb2 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x00002125       0x46 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x0000216b       0x5e C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_macro   0x000021c9      0x18a C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00002353       0x16 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_macro   0x00002369      0x1a5 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x0000250e       0x46 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_macro   0x00002554      0x1ba C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x0000270e       0x8e C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_macro   0x0000279c      0x1c1 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x0000295d       0x94 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x000029f1       0x64 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_macro   0x00002a55      0x193 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_macro   0x00002be8      0x16c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_macro    0x00000000     0x2af2
+ .debug_macro   0x00000000      0x17b C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x0000017b      0xa6c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000be7       0x22 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000c09       0x4c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000c55       0x1e C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000c73       0x94 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000d07       0x3c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000d43      0x103 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000e46       0x3a C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000e80       0x57 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000ed7       0x6a C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00000f41      0x1df C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001120       0x82 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x000011a2      0x460 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001602       0x22 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001624      0x104 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001728       0x16 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x0000173e       0x35 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001773       0x16 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001789       0x43 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x000017cc       0x34 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001800       0x10 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001810       0x58 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001868       0x71 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x000018d9       0x1c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x000018f5      0x12a C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001a1f      0x341 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001d60       0x16 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001d76       0x29 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001d9f       0x1c C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001dbb       0xeb C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_macro   0x00001ea6      0x18a C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00002030       0x16 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_macro   0x00002046      0x1a5 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x000021eb       0x46 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_macro   0x00002231      0x1ba C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x000023eb       0x8e C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_macro   0x00002479      0x1ca C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x00002643       0x94 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x000026d7       0xb8 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x0000278f       0x64 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_macro   0x000027f3      0x193 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_macro   0x00002986      0x16c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_line     0x00000000     0x2ede
- .debug_line    0x00000000      0x51d C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_line    0x0000051d      0x494 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_line    0x000009b1      0x547 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_line    0x00000ef8      0x5c3 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_line    0x000014bb      0x615 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_line    0x00001ad0      0x782 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_line    0x00002252      0x826 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_line    0x00002a78      0x466 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+.debug_line     0x00000000     0x2a23
+ .debug_line    0x00000000      0x51d C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_line    0x0000051d      0x547 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_line    0x00000a64      0x5c3 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_line    0x00001027      0x615 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_line    0x0000163c      0x75b C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_line    0x00001d97      0x826 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_line    0x000025bd      0x466 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
-.debug_str      0x00000000     0x9934
- .debug_str     0x00000000     0x84c0 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+.debug_str      0x00000000     0x9ba5
+ .debug_str     0x00000000     0x84c0 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
                                0x86e0 (size before relaxing)
- .debug_str     0x000084c0      0xadc C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
-                               0x906e (size before relaxing)
- .debug_str     0x00008f9c      0x192 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
+ .debug_str     0x000084c0      0x248 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
                                0x87b4 (size before relaxing)
- .debug_str     0x0000912e      0x219 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
+ .debug_str     0x00008708      0x889 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
                                0x8fac (size before relaxing)
- .debug_str     0x00009347      0x3a5 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
+ .debug_str     0x00008f91      0x3a5 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
                                0x90bb (size before relaxing)
- .debug_str     0x000096ec      0x148 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
-                               0x9431 (size before relaxing)
- .debug_str     0x00009834       0xd5 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
+ .debug_str     0x00009336      0x77f C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+                               0x9821 (size before relaxing)
+ .debug_str     0x00009ab5       0xc5 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
                                0x8c2c (size before relaxing)
- .debug_str     0x00009909       0x2b C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+ .debug_str     0x00009b7a       0x2b C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
                                0x7f86 (size before relaxing)
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+ .comment       0x00000000       0x49 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
                                  0x4a (size before relaxing)
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .comment       0x00000049       0x4a C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
 
 .ARM.attributes
                 0x00000000       0x34
  .ARM.attributes
-                0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
+                0x00000000       0x34 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
  .ARM.attributes
-                0x00000034       0x34 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
+                0x00000034       0x34 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
  .ARM.attributes
-                0x00000068       0x34 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
+                0x00000068       0x34 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
  .ARM.attributes
-                0x0000009c       0x34 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
+                0x0000009c       0x34 C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
  .ARM.attributes
-                0x000000d0       0x34 C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
+                0x000000d0       0x34 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
  .ARM.attributes
-                0x00000104       0x34 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
+                0x00000104       0x34 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
  .ARM.attributes
-                0x00000138       0x34 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
+                0x00000138       0x34 C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
  .ARM.attributes
-                0x0000016c       0x34 C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
+                0x0000016c       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000001a0       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .ARM.attributes
-                0x000001d4       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x000001a0       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
 
-.debug_frame    0x00000000      0x55c
- .debug_frame   0x00000000       0x98 C:\Users\zzatu\AppData\Local\Temp\ccM7TTv3.o
- .debug_frame   0x00000098       0x40 C:\Users\zzatu\AppData\Local\Temp\cce3JCQD.o
- .debug_frame   0x000000d8       0xd0 C:\Users\zzatu\AppData\Local\Temp\ccw3Kq2i.o
- .debug_frame   0x000001a8       0x68 C:\Users\zzatu\AppData\Local\Temp\cceHpE22.o
- .debug_frame   0x00000210       0x6c C:\Users\zzatu\AppData\Local\Temp\cccicM3D.o
- .debug_frame   0x0000027c      0x104 C:\Users\zzatu\AppData\Local\Temp\ccktrfdC.o
- .debug_frame   0x00000380      0x108 C:\Users\zzatu\AppData\Local\Temp\ccm3gowH.o
- .debug_frame   0x00000488       0x8c C:\Users\zzatu\AppData\Local\Temp\ccE37SiR.o
- .debug_frame   0x00000514       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000053c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+.debug_frame    0x00000000      0x51c
+ .debug_frame   0x00000000       0x98 C:\Users\zzatu\AppData\Local\Temp\ccNtYq7k.o
+ .debug_frame   0x00000098       0xd0 C:\Users\zzatu\AppData\Local\Temp\ccJsxnkV.o
+ .debug_frame   0x00000168       0x68 C:\Users\zzatu\AppData\Local\Temp\cc6XIgUm.o
+ .debug_frame   0x000001d0       0x6c C:\Users\zzatu\AppData\Local\Temp\ccg223Hq.o
+ .debug_frame   0x0000023c      0x104 C:\Users\zzatu\AppData\Local\Temp\cc1nBSK8.o
+ .debug_frame   0x00000340      0x108 C:\Users\zzatu\AppData\Local\Temp\ccmwtRjX.o
+ .debug_frame   0x00000448       0x8c C:\Users\zzatu\AppData\Local\Temp\ccbU3oHQ.o
+ .debug_frame   0x000004d4       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000004fc       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)

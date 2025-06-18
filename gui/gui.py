@@ -12,6 +12,10 @@ from PyQt6.QtCore import QThread, pyqtSignal
 NUM_POINTS = 1000
 BATCH_SIZE = 25
 
+SYNCHRONIZE = True
+START_BYTE = b'C'
+STOP_BYTE = b'C'
+
 class CustomDialog(QDialog):
     def __init__(self, title, message, parent=None):
         super().__init__(parent)
@@ -136,6 +140,26 @@ class Worker(QThread):
         self.port_name = port_name
         self.logs_enabled = logs_enabled
 
+    def synchronize_serial(self):
+        for i in range(0, 6):
+            #print("Iter " + str(i))
+            stop = b''
+            start = b''
+
+            while stop == b'':
+                stop = self.ser.read(1)
+            #print(stop)
+            if stop == STOP_BYTE:
+
+                while start == b'':
+                    start = self.ser.read(1)
+                #print(start)
+                if start == START_BYTE:
+                    return
+                
+        raise Exception("Can't synchronize") 
+
+
     def get_from_serial(self):
         i = 0
         num = b''
@@ -182,6 +206,9 @@ class Worker(QThread):
             file.write("Timestamp,Angle\n")
 
         while True:
+            if SYNCHRONIZE:
+                self.synchronize_serial()
+
             # get data here
             x = self.get_from_serial();
             y = self.get_from_serial();
@@ -236,37 +263,43 @@ class Worker(QThread):
     def run(self):
         print("Worker started")
 
-        if (self.port_name == "Auto"):
-            ok = False
-            for i in range(0, 256):
+        try:
+            if (self.port_name == "Auto"):
+                ok = False
+                for i in range(0, 256):
+                    try:
+                        self.ser = self.connect_to_serial("COM"+str(i))
+                        ok = True
+                    except:
+                        pass
+                if not ok:
+                    self.worker_error.emit(["Error", "Could not find serial port to connect to"])
+                    return
+            else:
                 try:
-                    self.ser = self.connect_to_serial("COM"+str(i))
-                    ok = True
+                    self.ser = self.connect_to_serial(self.port_name)
                 except:
-                    pass
-            if not ok:
-                self.worker_error.emit(["Error", "Could not find serial port to connect to"])
-                return
-        else:
-            try:
-                self.ser = self.connect_to_serial(self.port_name)
-            except:
-                print(traceback.format_exc())
-                self.worker_error.emit(["Error", "Could not connect to "+self.port_name])
-                return
+                    print(traceback.format_exc())
+                    self.worker_error.emit(["Error", "Could not connect to "+self.port_name])
+                    return
 
 
-        print("Connected to: " + self.ser.portstr)
+            print("Connected to: " + self.ser.portstr)
 
-        if self.logs_enabled:
-            print("Logs enabled on this run")
-            filename = "sensor_log_"+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")+".csv"
-            with open(filename, "a") as f:
-                self.worker_loop(file=f)
-        else:
-            self.worker_loop()
+            if self.logs_enabled:
+                print("Logs enabled on this run")
+                filename = "sensor_log_"+datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")+".csv"
+                with open(filename, "a") as f:
+                    self.worker_loop(file=f)
+            else:
+                self.worker_loop()
 
-        self.ser.close()
+            self.ser.close()
+
+        except:
+            if self.ser:
+                self.ser.close()
+            self.worker_error.emit(["Error", "Something went wrong"])
 
 class ApplicationWindow(QMainWindow):
     def __init__(self):

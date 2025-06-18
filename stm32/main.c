@@ -9,7 +9,7 @@
 #include "i2c.h"
 #include "debug.h"
 #include "lis2mdl.h"
-//#include "icm20948.h"
+#include "icm20948.h"
 #include "esp8266.h"
 
 #define DATA_TRANSMISSION_FEQ_HZ 100
@@ -83,8 +83,15 @@ void _on_systick(void) {
     Result res = lis2mdl_get_raw_data(&mgmtr_data);
     if (res) { DPRINT("GET MGMT DATA "); DPRINTN(res); for (;;) { spin(50000); } };
 
+    //DPRINTNS(mgmtr_data.x);
+    //DPRINTNL();
+    //DPRINTNS(mgmtr_data.y);
+    //DPRINTNL();
+
+    uart_write_byte(debug_uart_config.uart, 'C');
     uart_write_buf(debug_uart_config.uart, (char *)&(mgmtr_data.x), 2);
     uart_write_buf(debug_uart_config.uart, (char *)&(mgmtr_data.y), 2);
+    uart_write_byte(debug_uart_config.uart, 'C');
 
     //esp8266_send_cmd(AT_SEND_DATA_CMD);
     //uart_write_buf(wifi_uart_config.uart, (char *)&(mgmtr_data.x), 2);
@@ -105,21 +112,22 @@ int main(void) {
 
     Result res = uart_init(&debug_uart_config, true);
     if (res) { for (;;) {} };
-    DCLRSCRN();
-    DPRINT("HELLO!");
-    DPRINTNL();
+    //DCLRSCRN();
+    //DPRINT("HELLO!");
+    //DPRINTNL();
 
     res = i2c_init(&common_i2c_config);
     if (res) { DPRINT("I2C INIT ERR "); DPRINTN(res); for (;;) {} };
 
-    //res = lis2mdl_init(&common_i2c_config);
-    //if (res) { DPRINT("LIS2 INIT ERR "); DPRINTN(res); for (;;) {} };
+    res = lis2mdl_init(&common_i2c_config);
+    if (res) { DPRINT("LIS2 INIT ERR "); DPRINTN(res); for (;;) {} };
 
-    res = esp8266_init();
-    if (res) { DPRINT("ESP INIT ERR "); DPRINTN(res); DPRINTNL();
-        DPRINTB(USART3->ISR); for (;;) {} };
+    //res = esp8266_init();
+    //if (res) { DPRINT("ESP INIT ERR "); DPRINTN(res); DPRINTNL();
+    //    DPRINTB(USART3->ISR); for (;;) {} };
 
-    //systick_init(DEFAULT_SYSCLK_FREQ / DATA_TRANSMISSION_FEQ_HZ);
+    systick_init(DEFAULT_SYSCLK_FREQ / DATA_TRANSMISSION_FEQ_HZ);
+    //systick_init(DEFAULT_SYSCLK_FREQ / 1);
     for (;;) {}
 
 }
